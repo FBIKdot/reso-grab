@@ -1,5 +1,9 @@
 .vscode
 music
-db.yaml
+audio
+db.yml
+db-old.yml
 dist
 .env
+reso-grab
+reso-grab.exe
