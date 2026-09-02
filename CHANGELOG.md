@@ -1,5 +1,31 @@
 # Changelog
 
+## [2.0.0](https://github.com/FBIKdot/reso-grab/compare/v1.1.0...v2.0.0) (2026-09-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* 重写为 Go 实现
+
+### Features
+
+* **adapter/default:** 默认适配器 ([ced7929](https://github.com/FBIKdot/reso-grab/commit/ced7929b27e8197afe6c053a341e5613c89846d7))
+* **adapter/fma:** 支持 FreeMusicArchive ([f22c446](https://github.com/FBIKdot/reso-grab/commit/f22c4462fa0adbe571f9b50b45dc0216cef52006))
+* **adapter/incompetech:** incompetec 适配器 ([6033067](https://github.com/FBIKdot/reso-grab/commit/603306792760d2ce478d8b755e74b40c9453404d))
+* **adapter/pixabay:** support pixabay ([e44f2fb](https://github.com/FBIKdot/reso-grab/commit/e44f2fbc7a61f33e1e727b24524deaa127d850bc))
+* **adapter:** 抽象适配器 ([1852fbb](https://github.com/FBIKdot/reso-grab/commit/1852fbb25a6058065129c5a4f2e8303f46e414b2))
+* binary use quickjs engine ([de2be2d](https://github.com/FBIKdot/reso-grab/commit/de2be2db816a7d31eefb71ce1f2aa34a5fbf6619))
+* **dm:** 专用下载管理 ([1f7e460](https://github.com/FBIKdot/reso-grab/commit/1f7e460806ad7f46619f1ad4a77995c421fbb3b9))
+* 自定义输入 keys 顺序 ([b5d217a](https://github.com/FBIKdot/reso-grab/commit/b5d217abb88d28f64be359d6771620431aa9740e))
+* 重写为 Go 实现 ([eb3b8e2](https://github.com/FBIKdot/reso-grab/commit/eb3b8e2585463265f8c09e0af1c3369e5dc79717))
+
+
+### Bug Fixes
+
+* **adapter/default:** 优先获取db，用于给其他适配器继承 ([6c970e3](https://github.com/FBIKdot/reso-grab/commit/6c970e383f108dcda3b58f73829751831524f46f))
+* disable dova (outdated) ([5ec175e](https://github.com/FBIKdot/reso-grab/commit/5ec175e1b437e5d1f33c021bc20a80a88e2c49ce))
+* 修复数据结构 ([d7d6b03](https://github.com/FBIKdot/reso-grab/commit/d7d6b0344eeec9c364cec955069eab0d8943fd34))
+
 ## [2.0.0](https://github.com/FBIKdot/reso-grab/compare/reso-grab-v1.1.0...reso-grab-v2.0.0) (2026-09-02)
 
 
