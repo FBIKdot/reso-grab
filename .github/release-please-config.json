@@ -3,7 +3,8 @@
   "packages": {
     ".": {
       "release-type": "simple",
-      "package-name": "reso-grab"
+      "package-name": "reso-grab",
+      "include-component-in-tag": false
     }
   }
 }
